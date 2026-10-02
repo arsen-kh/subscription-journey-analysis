@@ -1,0 +1,13 @@
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.zip
+*.gz
+*.tar
+*.7z
+*.rar
+__pycache__/
+.env*
+raw/
+data/
