@@ -1,0 +1,639 @@
+{
+  "window": "Календарное окно: 8 октября — 7 ноября 2026 включительно; 8 ноября — только исключительная граница фильтра. События доступны до выгрузки 7 ноября, точное время среза не подтверждено.",
+  "methods": "Строки устройств и запросов; panel_user и user считаются отдельно. Метки по подстрокам UA; неизвестные и пустые UA не позволяют исключать приложение.",
+  "tables": {
+    "devices": {
+      "all": {
+        "app_totals": [
+          {
+            "app": "Clash Meta",
+            "rows": 4,
+            "panel_users": 4,
+            "users": 4
+          },
+          {
+            "app": "FlClash",
+            "rows": 13,
+            "panel_users": 11,
+            "users": 11
+          },
+          {
+            "app": "Happ",
+            "rows": 345,
+            "panel_users": 210,
+            "users": 200
+          },
+          {
+            "app": "Koala Clash",
+            "rows": 7,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "Other",
+            "rows": 23,
+            "panel_users": 19,
+            "users": 15
+          },
+          {
+            "app": "RabbitHole",
+            "rows": 149,
+            "panel_users": 120,
+            "users": 114
+          },
+          {
+            "app": "v2RayTun",
+            "rows": 16,
+            "panel_users": 14,
+            "users": 13
+          }
+        ],
+        "happ_rabbithole": {
+          "rows": 494,
+          "panel_union": 309,
+          "user_union": 294
+        },
+        "platform_summary": [
+          {
+            "platform": "Android",
+            "rows": 158,
+            "happ_rabbithole_rows": 143
+          },
+          {
+            "platform": "Other",
+            "rows": 13,
+            "happ_rabbithole_rows": 12
+          },
+          {
+            "platform": "Windows",
+            "rows": 29,
+            "happ_rabbithole_rows": 13
+          },
+          {
+            "platform": "iOS",
+            "rows": 347,
+            "happ_rabbithole_rows": 317
+          },
+          {
+            "platform": "macOS",
+            "rows": 10,
+            "happ_rabbithole_rows": 9
+          }
+        ],
+        "rows": 557,
+        "other_rows": 23,
+        "other_pct": 4.13,
+        "missing_rows": 0,
+        "apps": [
+          {
+            "app": "Clash Meta",
+            "platform": "iOS",
+            "rows": 4,
+            "panel_users": 4,
+            "users": 4
+          },
+          {
+            "app": "FlClash",
+            "platform": "Android",
+            "rows": 3,
+            "panel_users": 3,
+            "users": 3
+          },
+          {
+            "app": "FlClash",
+            "platform": "Windows",
+            "rows": 9,
+            "panel_users": 8,
+            "users": 8
+          },
+          {
+            "app": "FlClash",
+            "platform": "macOS",
+            "rows": 1,
+            "panel_users": 1,
+            "users": 1
+          },
+          {
+            "app": "Happ",
+            "platform": "Android",
+            "rows": 141,
+            "panel_users": 92,
+            "users": 86
+          },
+          {
+            "app": "Happ",
+            "platform": "Other",
+            "rows": 12,
+            "panel_users": 12,
+            "users": 12
+          },
+          {
+            "app": "Happ",
+            "platform": "Windows",
+            "rows": 13,
+            "panel_users": 13,
+            "users": 11
+          },
+          {
+            "app": "Happ",
+            "platform": "iOS",
+            "rows": 174,
+            "panel_users": 132,
+            "users": 128
+          },
+          {
+            "app": "Happ",
+            "platform": "macOS",
+            "rows": 5,
+            "panel_users": 5,
+            "users": 4
+          },
+          {
+            "app": "Koala Clash",
+            "platform": "Windows",
+            "rows": 7,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "Other",
+            "platform": "Android",
+            "rows": 5,
+            "panel_users": 5,
+            "users": 4
+          },
+          {
+            "app": "Other",
+            "platform": "Other",
+            "rows": 1,
+            "panel_users": 1,
+            "users": 1
+          },
+          {
+            "app": "Other",
+            "platform": "iOS",
+            "rows": 17,
+            "panel_users": 15,
+            "users": 12
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "Android",
+            "rows": 2,
+            "panel_users": 2,
+            "users": 2
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "iOS",
+            "rows": 143,
+            "panel_users": 118,
+            "users": 112
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "macOS",
+            "rows": 4,
+            "panel_users": 4,
+            "users": 3
+          },
+          {
+            "app": "v2RayTun",
+            "platform": "Android",
+            "rows": 7,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "v2RayTun",
+            "platform": "iOS",
+            "rows": 9,
+            "panel_users": 8,
+            "users": 8
+          }
+        ]
+      },
+      "30d": {
+        "app_totals": [
+          {
+            "app": "FlClash",
+            "rows": 6,
+            "panel_users": 4,
+            "users": 4
+          },
+          {
+            "app": "Happ",
+            "rows": 90,
+            "panel_users": 61,
+            "users": 53
+          },
+          {
+            "app": "Koala Clash",
+            "rows": 2,
+            "panel_users": 2,
+            "users": 2
+          },
+          {
+            "app": "Other",
+            "rows": 17,
+            "panel_users": 15,
+            "users": 11
+          },
+          {
+            "app": "RabbitHole",
+            "rows": 44,
+            "panel_users": 37,
+            "users": 32
+          },
+          {
+            "app": "v2RayTun",
+            "rows": 4,
+            "panel_users": 4,
+            "users": 3
+          }
+        ],
+        "happ_rabbithole": {
+          "rows": 134,
+          "panel_union": 91,
+          "user_union": 79
+        },
+        "platform_summary": [
+          {
+            "platform": "Android",
+            "rows": 43,
+            "happ_rabbithole_rows": 31
+          },
+          {
+            "platform": "Other",
+            "rows": 4,
+            "happ_rabbithole_rows": 3
+          },
+          {
+            "platform": "Windows",
+            "rows": 13,
+            "happ_rabbithole_rows": 8
+          },
+          {
+            "platform": "iOS",
+            "rows": 98,
+            "happ_rabbithole_rows": 87
+          },
+          {
+            "platform": "macOS",
+            "rows": 5,
+            "happ_rabbithole_rows": 5
+          }
+        ],
+        "rows": 163,
+        "other_rows": 17,
+        "other_pct": 10.43,
+        "missing_rows": 0,
+        "apps": [
+          {
+            "app": "FlClash",
+            "platform": "Android",
+            "rows": 3,
+            "panel_users": 3,
+            "users": 3
+          },
+          {
+            "app": "FlClash",
+            "platform": "Windows",
+            "rows": 3,
+            "panel_users": 2,
+            "users": 2
+          },
+          {
+            "app": "Happ",
+            "platform": "Android",
+            "rows": 31,
+            "panel_users": 26,
+            "users": 21
+          },
+          {
+            "app": "Happ",
+            "platform": "Other",
+            "rows": 3,
+            "panel_users": 3,
+            "users": 3
+          },
+          {
+            "app": "Happ",
+            "platform": "Windows",
+            "rows": 8,
+            "panel_users": 8,
+            "users": 7
+          },
+          {
+            "app": "Happ",
+            "platform": "iOS",
+            "rows": 45,
+            "panel_users": 33,
+            "users": 29
+          },
+          {
+            "app": "Happ",
+            "platform": "macOS",
+            "rows": 3,
+            "panel_users": 3,
+            "users": 2
+          },
+          {
+            "app": "Koala Clash",
+            "platform": "Windows",
+            "rows": 2,
+            "panel_users": 2,
+            "users": 2
+          },
+          {
+            "app": "Other",
+            "platform": "Android",
+            "rows": 5,
+            "panel_users": 5,
+            "users": 4
+          },
+          {
+            "app": "Other",
+            "platform": "Other",
+            "rows": 1,
+            "panel_users": 1,
+            "users": 1
+          },
+          {
+            "app": "Other",
+            "platform": "iOS",
+            "rows": 11,
+            "panel_users": 11,
+            "users": 8
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "iOS",
+            "rows": 42,
+            "panel_users": 35,
+            "users": 30
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "macOS",
+            "rows": 2,
+            "panel_users": 2,
+            "users": 2
+          },
+          {
+            "app": "v2RayTun",
+            "platform": "Android",
+            "rows": 4,
+            "panel_users": 4,
+            "users": 3
+          }
+        ]
+      },
+      "reclassified": []
+    },
+    "requests": {
+      "all": {
+        "app_totals": [
+          {
+            "app": "Clash Meta",
+            "rows": 47,
+            "panel_users": 4,
+            "users": 4
+          },
+          {
+            "app": "FlClash",
+            "rows": 114,
+            "panel_users": 10,
+            "users": 10
+          },
+          {
+            "app": "Happ",
+            "rows": 3871,
+            "panel_users": 212,
+            "users": 202
+          },
+          {
+            "app": "Koala Clash",
+            "rows": 45,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "Other",
+            "rows": 162,
+            "panel_users": 21,
+            "users": 17
+          },
+          {
+            "app": "RabbitHole",
+            "rows": 2067,
+            "panel_users": 116,
+            "users": 110
+          },
+          {
+            "app": "v2RayTun",
+            "rows": 212,
+            "panel_users": 13,
+            "users": 13
+          }
+        ],
+        "happ_rabbithole": {
+          "rows": 5938,
+          "panel_union": 312,
+          "user_union": 297
+        },
+        "platform_summary": [
+          {
+            "platform": "All",
+            "rows": 6518,
+            "happ_rabbithole_rows": 5938
+          }
+        ],
+        "rows": 6518,
+        "other_rows": 162,
+        "other_pct": 2.49,
+        "missing_rows": 0,
+        "apps": [
+          {
+            "app": "Clash Meta",
+            "platform": "All",
+            "rows": 47,
+            "panel_users": 4,
+            "users": 4
+          },
+          {
+            "app": "FlClash",
+            "platform": "All",
+            "rows": 114,
+            "panel_users": 10,
+            "users": 10
+          },
+          {
+            "app": "Happ",
+            "platform": "All",
+            "rows": 3871,
+            "panel_users": 212,
+            "users": 202
+          },
+          {
+            "app": "Koala Clash",
+            "platform": "All",
+            "rows": 45,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "Other",
+            "platform": "All",
+            "rows": 162,
+            "panel_users": 21,
+            "users": 17
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "All",
+            "rows": 2067,
+            "panel_users": 116,
+            "users": 110
+          },
+          {
+            "app": "v2RayTun",
+            "platform": "All",
+            "rows": 212,
+            "panel_users": 13,
+            "users": 13
+          }
+        ]
+      },
+      "30d": {
+        "app_totals": [
+          {
+            "app": "Clash Meta",
+            "rows": 41,
+            "panel_users": 3,
+            "users": 3
+          },
+          {
+            "app": "FlClash",
+            "rows": 114,
+            "panel_users": 10,
+            "users": 10
+          },
+          {
+            "app": "Happ",
+            "rows": 3483,
+            "panel_users": 201,
+            "users": 192
+          },
+          {
+            "app": "Koala Clash",
+            "rows": 44,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "Other",
+            "rows": 161,
+            "panel_users": 20,
+            "users": 16
+          },
+          {
+            "app": "RabbitHole",
+            "rows": 1668,
+            "panel_users": 105,
+            "users": 100
+          },
+          {
+            "app": "v2RayTun",
+            "rows": 207,
+            "panel_users": 13,
+            "users": 13
+          }
+        ],
+        "happ_rabbithole": {
+          "rows": 5151,
+          "panel_union": 292,
+          "user_union": 279
+        },
+        "platform_summary": [
+          {
+            "platform": "All",
+            "rows": 5718,
+            "happ_rabbithole_rows": 5151
+          }
+        ],
+        "rows": 5718,
+        "other_rows": 161,
+        "other_pct": 2.82,
+        "missing_rows": 0,
+        "apps": [
+          {
+            "app": "Clash Meta",
+            "platform": "All",
+            "rows": 41,
+            "panel_users": 3,
+            "users": 3
+          },
+          {
+            "app": "FlClash",
+            "platform": "All",
+            "rows": 114,
+            "panel_users": 10,
+            "users": 10
+          },
+          {
+            "app": "Happ",
+            "platform": "All",
+            "rows": 3483,
+            "panel_users": 201,
+            "users": 192
+          },
+          {
+            "app": "Koala Clash",
+            "platform": "All",
+            "rows": 44,
+            "panel_users": 7,
+            "users": 6
+          },
+          {
+            "app": "Other",
+            "platform": "All",
+            "rows": 161,
+            "panel_users": 20,
+            "users": 16
+          },
+          {
+            "app": "RabbitHole",
+            "platform": "All",
+            "rows": 1668,
+            "panel_users": 105,
+            "users": 100
+          },
+          {
+            "app": "v2RayTun",
+            "platform": "All",
+            "rows": 207,
+            "panel_users": 13,
+            "users": 13
+          }
+        ]
+      },
+      "reclassified": []
+    }
+  },
+  "connection_context": {
+    "panel_accounts": 361,
+    "accounts_with_first_connected_at": 328,
+    "daily_traffic_rows": 14415,
+    "accounts_in_daily_traffic": 328,
+    "note": "Эти общие агрегаты не устанавливают связь приложения с подключением или трафиком."
+  },
+  "limitations": [
+    "UA распознаются только по явным подстрокам. Отсутствие совпадений не доказывает отсутствие использования.",
+    "История устройств не равна текущей активности; запросы не доказывают успешного импорта, подключения или использования.",
+    "Browser, Telegram и curl выделены отдельно; учет запросов на окна календарный UTC, в источнике часть полей без часового пояса.",
+    "Дубликаты устройств и пользователей между группами возможны; суммы уникальных пользователей по группам не складываются.",
+    "Clash Mi и Clash Meta — разные метки и не объединяются. Имена приложений в UI и UA могут различаться; сокращение FlClash не позволяет установить FlClashX.",
+    "Не удалять варианты без проверки клиентских UA, других платформ и периода."
+  ]
+}

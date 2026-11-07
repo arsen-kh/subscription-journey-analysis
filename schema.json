@@ -1,0 +1,146 @@
+{
+  "users": {
+    "rows": 379,
+    "columns": [
+      "user",
+      "created_at",
+      "updated_at",
+      "is_blocked",
+      "is_bot_blocked",
+      "is_trial_available",
+      "personal_discount",
+      "purchase_discount"
+    ]
+  },
+  "subscriptions": {
+    "rows": 422,
+    "columns": [
+      "subscription",
+      "user",
+      "panel_user",
+      "status",
+      "is_trial",
+      "traffic_limit",
+      "device_limit",
+      "expire_at",
+      "created_at",
+      "updated_at",
+      "plan_id",
+      "plan",
+      "plan_days"
+    ]
+  },
+  "transactions": {
+    "rows": 402,
+    "columns": [
+      "transaction",
+      "user",
+      "status",
+      "is_test",
+      "purchase_type",
+      "gateway_type",
+      "currency",
+      "created_at",
+      "updated_at",
+      "final_amount",
+      "original_amount",
+      "discount_percent",
+      "plan_id",
+      "plan",
+      "plan_days"
+    ]
+  },
+  "plans": {
+    "rows": 7,
+    "columns": [
+      "id",
+      "name",
+      "type",
+      "traffic_limit",
+      "device_limit",
+      "is_trial",
+      "is_active",
+      "created_at"
+    ]
+  },
+  "plan_durations": {
+    "rows": 22,
+    "columns": [
+      "id",
+      "days",
+      "plan_id"
+    ]
+  },
+  "plan_prices": {
+    "rows": 66,
+    "columns": [
+      "id",
+      "currency",
+      "price",
+      "plan_duration_id"
+    ]
+  },
+  "referrals": {
+    "rows": 62,
+    "columns": [
+      "referrer",
+      "referred",
+      "level",
+      "created_at"
+    ]
+  },
+  "referral_rewards": {
+    "rows": 26,
+    "columns": [
+      "user",
+      "type",
+      "amount",
+      "is_issued",
+      "created_at"
+    ]
+  },
+  "connections": {
+    "rows": 361,
+    "columns": [
+      "panel_user",
+      "user",
+      "status",
+      "traffic_limit_bytes",
+      "expire_at",
+      "hwid_device_limit",
+      "used_traffic_bytes",
+      "lifetime_used_traffic_bytes",
+      "first_connected_at",
+      "online_at",
+      "created_at"
+    ]
+  },
+  "devices": {
+    "rows": 557,
+    "columns": [
+      "panel_user",
+      "user",
+      "platform",
+      "app",
+      "created_at"
+    ]
+  },
+  "subscription_requests": {
+    "rows": 6518,
+    "columns": [
+      "panel_user",
+      "user",
+      "app",
+      "request_at"
+    ]
+  },
+  "daily_traffic": {
+    "rows": 14415,
+    "columns": [
+      "panel_user",
+      "user",
+      "date",
+      "traffic_bytes"
+    ]
+  }
+}
